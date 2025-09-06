@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E8F6EF; /* Minty background */
+}
+
+h1 {
+    display: inline;
+    color: #2C786C; /* Deep teal */
+}
+.main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    gap: 40px;
+    padding: 40px 20px;
+}
+.main aside img{
+    width:300px;             
+    height: auto;             
+    border-radius: 12px;      
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);;
+}
+.main section {
+    flex: 1;  
+    text-align: left;                
+}
+
+.intro {
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+
+.about-me {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #ffffff; /* Clean white box */
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(44, 120, 108, 0.1); /* Soft teal shadow */
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 40px;
+}
+
+.about-me h2 {
+    color: #2C786C;
+}
+
+.project {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(44, 120, 108, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 40px;
+}
+
+.project h4 {
+    color: #2C786C;
+}
+
+.project a {
+    color: #FF914D; /* Soft orange for links */
+}
+
+.contact {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(44, 120, 108, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+.contact h4{
+     color: #2C786C;
+}
+
+.contact a {
+    color: #FF914D;
+}
+
+
+.end {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 16px;
+    color: #5e5d5d;
+}
+@media (max-width: 768px) {
+  .container { flex-direction: column; }
+  nav { flex-direction: column; }
+}
+
